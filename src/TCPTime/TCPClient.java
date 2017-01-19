@@ -12,11 +12,11 @@ public class TCPClient {
 
     public static void main(String[] args) {
 
-        int port = 2000;            //porta a cui connettersi
-        InetAddress serverAddress = null;  //Indirizzo del server TCP
-        Socket connection = null;          //oggetto da usare per realizzare la connessione TCP
-        PrintWriter streamOut = null;      //Stream di carattere in output
-        Scanner streamIn = null;           //oggetto Scanner per leggere il flusso di input
+        int port = 2000;                    //porta a cui connettersi
+        InetAddress serverAddress = null;   //Indirizzo del server TCP
+        Socket connection = null;           //oggetto da usare per realizzare la connessione TCP
+        PrintWriter streamOut = null;       //Stream di carattere in output
+        Scanner streamIn = null;            //oggetto Scanner per leggere il flusso di input
 
         try {
             serverAddress = InetAddress.getLocalHost();
